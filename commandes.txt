@@ -1,0 +1,28 @@
+git init : initialiser un dépôt git
+git add <nom de fichier>
+
+git add --all
+git add *
+git add .
+
+Ajouter des fichiers à l'index 
+
+git commit -m "" : créer un commit / une version du dépot 
+Le message du commit doit etre concis et précis : utile pour vous mais aussi pour vos collaborateurs
+
+git remote add origin lien-vers-le-depot-git : créer un lien entre le dépot local et le dépot distant 
+
+git push origin <nom de la branche> : envoyer le contenu de la branche locale en ligne.
+
+pour envoyer en ligne sur la branche principale : git push origin master(/main)
+
+git status : donne l'état du dépot => fichiers modifiés, supprimmés, untracked (pas encore gérés par git)
+
+git restore nom-du-fichier : permet de restaurer un fichier supprimé avant un commit
+
+git branch : permet de lister les branches du dépot
+
+git branch <nom de la branche> : permet de créer une branche
+
+git checkout <nom de la branche> : permet de se positionner sur une branche
+
